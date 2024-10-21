@@ -16,35 +16,29 @@ This repository contains backend code for performing CRUD (Create, Read, Update,
 - Node.js
 - Express.js
 - PostgreSQL
-- Joi for input validation
-- bcrypt for hashing passwords
 
-*Getting Started:*
+*Installation:*
 1. *Clone the repository:*
-   sh
-   git clone https://github.com/your-username/repository-name.git
+```bash
+   git clone <repository-url>
    cd repository-name
-   
+```
 
 2. *Install dependencies:*
-   sh
+```bash
    npm install
-   
+```
 
 3. *Set up the database:*
    - Create a PostgreSQL database.
-   - Update the database configuration in config/db.js.
+   - Update the database configuration in db/db.js.
 
 4. *Run the server:*
-   sh
+```bash
    npm start
-   
+   npm run dev // for nodemon+
+```
 
-*API Endpoints:*
-- *GET* /api/products - Retrieve all products
-- *POST* /api/products - Create a new product
-- *PUT* /api/products/:id - Update a product by ID
-- *DELETE* /api/products/:id - Delete a product by ID
 
 *Contribution:*
 Contributions are welcome! Feel free to fork the repository and submit a pull request.
